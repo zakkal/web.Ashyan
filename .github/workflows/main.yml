@@ -17,7 +17,7 @@ jobs:
       with:
         server: 151.243.222.70
         username: e-commerce@zakkal.my.id
-        password: ${{ secrets.FTP_PASSWORD }}
+        password: e-commerce
         protocol: ftp
         port: 21
         passive: true
