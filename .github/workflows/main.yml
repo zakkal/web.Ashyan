@@ -1,4 +1,4 @@
-name: e-commerce-Ashyan
+name: e-commerce
 on:
   push:
     branches: [ main ]
@@ -17,15 +17,18 @@ jobs:
       with:
         server: 151.243.222.70
         username: e-commerce@zakkal.my.id
-        password: e-commerce
+        password: ${{ secrets.FTP_PASSWORD }}
         protocol: ftp
         port: 21
         passive: true
         timeout: 60000
+        dangerous-clean-slate: false
         exclude: |
           **/.git*
           **/.git*/**
           **/node_modules/**
           **/vendor/**
-          **/storage/logs/**
+          **/storage/**
+          **/tests/**
           **/.env
+          **/*.log
