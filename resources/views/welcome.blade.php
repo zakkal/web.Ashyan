@@ -280,7 +280,7 @@
                 <div class="glass p-10 rounded-3xl text-left relative flex flex-col">
                     <h3 class="text-xl font-bold text-white">Basic</h3>
                     <div class="mt-4 mb-8">
-                        <span class="text-4xl font-extrabold text-white">Rp 300.000</span>
+                        <span class="text-4xl font-extrabold text-white">Rp 200.000</span>
                         <span class="text-slate-500">/proyek</span>
                     </div>
                     <ul class="space-y-4 mb-10 flex-grow">

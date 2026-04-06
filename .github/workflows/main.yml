@@ -1,0 +1,34 @@
+name: e-commerce
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: 151.243.222.70
+        username: e-commerce@zakkal.my.id
+        password: e-commerce
+        protocol: ftp
+        port: 21
+        passive: true
+        timeout: 60000
+        dangerous-clean-slate: false
+        exclude: |
+          **/.git*
+          **/.git*/**
+          **/node_modules/**
+          **/vendor/**
+          **/storage/**
+          **/tests/**
+          **/.env
+          **/*.log
