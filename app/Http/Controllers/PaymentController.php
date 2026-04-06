@@ -20,10 +20,10 @@ class PaymentController extends Controller
 
         switch ($plan) {
             case 'basic':
-                $url = 'https://zakkal-store.myscalev.com/p/paket-product'; // Link Paket Product (Basic)
+                $url = 'https://donasi-tahfidz.myscalev.com/p/paket-basic-6yuq'; // Link Paket Product (Basic)
                 break;
             case 'standard':
-                $url = 'https://zakkal-store.myscalev.com/p/paket-standard'; // Link Paket Standard
+                $url = 'https://donasi-tahfidz.myscalev.com/p/paket-basic-adqn'; // Link Paket Standard
                 break;
             case 'premium':
                 // Premium usually redirects to WhatsApp for custom consulting

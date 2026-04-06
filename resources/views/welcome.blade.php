@@ -280,7 +280,7 @@
                 <div class="glass p-10 rounded-3xl text-left relative flex flex-col">
                     <h3 class="text-xl font-bold text-white">Basic</h3>
                     <div class="mt-4 mb-8">
-                        <span class="text-4xl font-extrabold text-white">Rp 1.5M</span>
+                        <span class="text-4xl font-extrabold text-white">Rp 300.000</span>
                         <span class="text-slate-500">/proyek</span>
                     </div>
                     <ul class="space-y-4 mb-10 flex-grow">
@@ -309,7 +309,7 @@
                     <div class="absolute top-0 right-10 -translate-y-1/2 bg-primary text-white text-[10px] font-bold px-3 py-1 rounded-full uppercase tracking-widest shadow-xl shadow-primary/20">Best Value</div>
                     <h3 class="text-xl font-bold text-white">Standard</h3>
                     <div class="mt-4 mb-8">
-                        <span class="text-4xl font-extrabold text-white">Rp 3.5M</span>
+                        <span class="text-4xl font-extrabold text-white">Rp 300.000</span>
                         <span class="text-slate-500">/proyek</span>
                     </div>
                     <ul class="space-y-4 mb-10 flex-grow">
